@@ -1,0 +1,23 @@
+{
+  "name": "claude-code-cli",
+  "version": "1.0.0",
+  "description": "A lightweight AI-powered CLI agent that reads, writes, and executes commands using Claude",
+  "main": "app/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app/main.js"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "agent",
+    "claude",
+    "openrouter",
+    "tool-use",
+    "function-calling"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}
